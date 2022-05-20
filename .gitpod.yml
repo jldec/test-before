@@ -1,0 +1,5 @@
+tasks:
+  - before: |
+      echo before > before.txt
+    command: |
+      echo 'hello test-before'
