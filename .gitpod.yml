@@ -1,5 +1,5 @@
 tasks:
   - before: |
-      echo `gp url` > before.txt
+      echo `gp url` >> before.txt
     command: |
-      echo `gp url` > command.txt
+      echo `gp url` >> command.txt
