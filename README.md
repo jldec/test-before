@@ -1,5 +1,5 @@
 # test-before
-
+(for a variant of this test without any command task, see the `before-only` branch or PR #1)
 
 #### .gitpod.yml
 ```yaml
