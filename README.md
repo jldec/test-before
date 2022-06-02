@@ -3,7 +3,7 @@
 Use `init` instead of `before` when the main intent is to trigger a prebuild and you previously relied on a single `before` without any `init`. Use `before` to extract common steps when both `init` and `command` are also present.
 
 #### .gitpod.yml (this will no longer behave as described below)
-```yaml
+
 ```yaml
 tasks:
   - before: |
